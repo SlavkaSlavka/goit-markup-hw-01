@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,17 +7,15 @@
   </head>
   <body>
     <header>
-      <!--cкрытый заголовок-->
-      <h1 class="hidden">Web Studio</h1>
-      <nav class="main-navigation">
-        <p class="logo"><a href="#">Web Studio</a></p>
-        <ul class="main-navigation__list">
-          <li class="main-navigation__list_item"><a href="#">Студия</a></li>
-          <li class="main-navigation__list_item"><a href="#">Портфолио</a></li>
-          <li class="main-navigation__list_item"><a href="#">Контакты</a></li>
+      <nav>
+        <a href="#">Web Studio</a>
+        <ul>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
         <address>
-          <ul class="main-navigation_contacts">
+          <ul>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
@@ -25,41 +23,34 @@
       </nav>
     </header>
     <main>
-      <section class="main-photo">
-        <!--скрытый заголовок для секции, по семантике-->
-        <h2 class="hidden">our photo</h2>
-        <img
-          class="main-photo__image"
-          src="img/Header-img.png"
-          alt="working people"
-        />
-        <p>Єффективные решения для вашего бизнеса</p>
+      <section>
+        <h1>Єффективные решения для вашего бизнеса</h1>
         <!--предполагаю, что будет всплывающее окно по нажатию кнопки-->
         <button>Заказать услугу</button>
-        <ul class="main-photo_list">
+        <ul>
           <li>
-            <img src="img/antenna-1.svg" alt="antenna" />
+            <img src="img/antenna-1.svg" alt="антена" />
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <img src="img/clock-1.svg" alt="clock" />
+            <img src="img/clock-1.svg" alt="часы" />
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <img src="img/diagram-1.svg" alt="diagram" />
+            <img src="img/diagram-1.svg" alt="диаграмма" />
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <img src="img/astronaut-1.svg" alt="astronaut" />
+            <img src="img/astronaut-1.svg" alt="астронавт" />
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -67,91 +58,75 @@
           </li>
         </ul>
       </section>
-      <section class="what-our-we-doing">
-        <h2 class="what-our-we-doing__heading">Чем мы занимаемся</h2>
-        <ul class="what-our-we-doing__list">
+      <section>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
           <li>
-            <figure>
-              <img src="img/main-img-1.png" alt="laptop" />
-              <figcaption>Десктопные приложения</figcaption>
-            </figure>
+            <img src="img/Main-img-1.jpg" alt="ноутбук" />
+            Десктопные приложения
           </li>
           <li>
-            <figure>
-              <img src="img//main-img-2.jpg" alt="mobile" />
-              <figcaption>Мобильные приложения</figcaption>
-            </figure>
+            <img src="img//Main-img-2.jpg" alt="мобильный телефон" />
+            Мобильные приложения
           </li>
           <li>
-            <figure>
-              <img src="img/main-img-3.png" alt="computer" />
-              <figcaption>Дизайнерские решения</figcaption>
-            </figure>
+            <img src="img/Main-img-3.jpg" alt="компьютер" />
+            Дизайнерские решения
           </li>
         </ul>
       </section>
-      <section class="our-team">
-        <h2 class="our-team__heading">Наша команда</h2>
-        <ul class="=our-team_list">
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
           <li>
-            <figure>
-              <img src="img//main-img-4.png" alt="mobile" />
-            </figure>
-            <h3>John Smith</h3>
+            <img src="img//Main-img-4.jpg" alt="Джон" />
+            <p>John Smith</p>
             <p>Product Designer</p>
           </li>
           <li>
-            <figure>
-              <img src="img/main-img-5.png" alt="mobile" />
-            </figure>
-            <h3>Marta Steward</h3>
+            <img src="img/Main-img-5.jpg" alt="Марта" />
+            <p>Marta Steward</p>
             <p>Frontend Deweloper</p>
           </li>
           <li>
-            <figure>
-              <img src="img//main-img-6.png" alt="mobile" />
-            </figure>
-            <h3>Robert Jakis</h3>
+            <img src="img//Main-img-6.jpg" alt="Роберт" />
+            <p>Robert Jakis</p>
             <p>Marketing</p>
           </li>
           <li>
-            <figure>
-              <img src="img//main-img-7.png" alt="mobile" />
-            </figure>
-            <h3>Martin Doe</h3>
+            <img src="img//Main-img-7.jpg" alt="Мартин" />
+            <p>Martin Doe</p>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
-      <section class="regular-customers">
-        <h2 class="regular-customers__heading">Постоянные клиенты</h2>
-        <ul class="regular-customers__list">
-          <li><img src="img/logo-1.svg" alt="logo-1" /></li>
-          <li><img src="img/logo-2.svg" alt="logo-2" /></li>
-          <li><img src="img/logo-3.svg" alt="logo-3" /></li>
-          <li><img src="img/logo-4.svg" alt="logo-4" /></li>
-          <li><img src="img/logo-5.svg" alt="logo-5" /></li>
-          <li><img src="img/logo-6.svg" alt="logo-6" /></li>
+      <section>
+        <h2>Постоянные клиенты</h2>
+        <ul>
+          <li><img src="img/logo-1.svg" alt="Логотип-1" /></li>
+          <li><img src="img/logo-2.svg" alt="Логотип-2" /></li>
+          <li><img src="img/logo-3.svg" alt="Логотип-3" /></li>
+          <li><img src="img/logo-4.svg" alt="Логотип-4" /></li>
+          <li><img src="img/logo-5.svg" alt="Логотип-5" /></li>
+          <li><img src="img/logo-6.svg" alt="Логотип-6" /></li>
         </ul>
       </section>
     </main>
     <footer>
-      <p><a href="#">Web Studio</a></p>
+      <a href="#">Web Studio</a>
       <address>
-        <ul class="contacts-list">
-          <li><a href="#">Web Studio</a></li>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
+        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <ul>
           <li><a href="mailto:info@example.com">info@example.com</a></li>
           <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
-      <h4>Присоединяйтесь</h4>
-      <!--icons-->
-      <h4>Подпишитесь на рассылку</h4>
-      <form>
-        <input type="text" value="E-mail" />
-        <input type="submit" value="Подписаться" />
-      </form>
+      <p>Присоединяйтесь</p>
+      <a href="#">соц. иконка</a>
+      <a href="#">соц. иконка</a>
+      <a href="#">соц. иконка</a>
+      <a href="#">соц. иконка</a>
+      <p>Подпишитесь на рассылку</p>
     </footer>
   </body>
 </html>
